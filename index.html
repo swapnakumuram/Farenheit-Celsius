@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius Fahrenheit</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <label class="label">Celsius :</label>
+        <input type="text" class="val" placeholder="Enter the value"><br>
+
+    <div class="choice">
+        <input type="radio" class="c" name="temp" value="celsius" onchange="modify()">Celsius
+        <input type="radio" class="f" name="temp" value="fahrenheit" onchange="modify()">Fahrenheit
+    </div>
+<br><br>
+
+<div id="result"></div>
+<br>
+<input type="submit" value="submit" onclick="check( )">
+
+
+
+</form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
